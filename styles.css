@@ -1,0 +1,46 @@
+body {
+background-image: url(https://cinefera.com.br/wp-content/uploads/2024/05/Sites-e-aplicativos-para-assistir-filmes-e-series-de-graca.webp);
+margin: 1em auto;
+text-align: center;
+font-family: cursive;
+font-size: 20px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+ form, label{
+  margin: 1em auto;
+  text-align: left;
+  size: 20px;
+  color: white;
+  font-family: cursive;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+h1[id="title"]{
+  display: block;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+p[id="description"]{
+color:white
+
+}
+
+h1{
+   margin: 1em auto;
+   text-align: center;
+   size: 40px;
+   background-color: #21272c1a;
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+p{
+background-color: #21272c85;
+border-bottom: 3px solid
+text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+input[type="submit"] {
+  display: block;

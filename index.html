@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<link rel="stylesheet" href="styles.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Formulário de Preferencias em Filmes e Series</title>
+   </head>
+   <body>
+  <h1 id="title">Formulário de Preferências em Filmes e Séries</h1>
+  <p id="description">Este formulário visa entender suas preferencias de filmes e séries para ajudar a recomendar conteúdos e melhorar experiências de entretenimento.</p>
+  <fieldset id="dados">
+<form id="survey-form">
+  <label id="name-label">Nome:<input id="name" required placeholder="Digite seu nome" for"name"></label>
+ <label id="email-label">Email: <input id="email" type="email" required placeholder="Digite seu email"></label>
+  <label id="number-label">Idade: <input id="number" type="number" min="12" max="120"placeholder="idade"></label>
+
+  <p>Quais são os gêneros de séries ou filmes favoritos(as)</p>
+    <label><input type="checkbox" name="genre" value="Açao">Ação</label><br>
+    <label><input type="checkbox" name="genre" value="Drama">Drama</label><br>
+    <label><input type="checkbox" name="genre" value="Comédia">Comédia</label><br>
+    <label><input type="checkbox" name="genre" value="Suspense">Suspense</label><br>
+    <label><input type="checkbox" name="genre" value="Romance">Romance</label><br>
+    <label><input type="checkbox" name="genre" value="Ficção Cientifica">Ficção Científica</label><br>
+    <label><input type="checkbox" name="genre" value="Terror">Terror</label><br>
+    <label><input type="checkbox" name="genre" value="Documentário">Documentário</label><br>
+    <label><input type="checkbox" name="genre" value="Fantasia">Fantasia</label><br>
+
+  <p>Qual a frequencia que voce assiste filmes e series:</p>
+  <label><input type="radio" name="frequencia" value="diariamente">Diariamente</label><br>
+   <label><input type="radio" name="frequencia" value="semanalmente">Semanalmente</label><br>
+    <label><input type="radio" name="frequencia" value="mensalmente">Mensalmente</label><br>
+   <label><input type="radio" name="frequencia" value="raramente">Raramente</label><br>
+     
+    <p>Qual sua plataforma preferida de streaming:</p>
+      <label><input type="checkbox" name="streaming" value="netflix">Netflix</label><br>
+      <label><input type="checkbox" name="streaming" value="amazon prime">Amazon Prime</label><br>
+      <label><input type="checkbox" name="streaming" value="disney+">Disney+</label><br>
+      <label><input type="checkbox" name="streaming" value="hbo max">HBO Max</label><br>
+      <label><input type="checkbox" name="streaming" value="xciptv">XCIPTV</label><br>
+    
+    <p>Prefere assistir séries ou filmes:</p>
+    <select id="dropdown" name="series ou filmes">
+      <option value=>(selecione apenas um)</option>
+      <option value=>Séries</option>
+      <option value=>Filmes</option>
+      <option value=>Ambos</option>
+    </select>
+    <p>Indique um filme ou série:</p>
+      <label><textarea></textarea> 
+      
+    <input id="submit" type="submit" value="enviar formulário">
+</fieldset>
+</form>
+</body>
+</head>
+</html>
